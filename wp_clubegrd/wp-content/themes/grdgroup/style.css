@@ -1,0 +1,51 @@
+/*
+Theme Name: GRD GROUP PRINCIPAL
+Author: Luiz Caprioli
+Description: Bootstrap Blog template setado para Wordpress
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+/* 
+Cor principal
+#2a2740
+
+Cor primária
+????
+
+
+
+
+Secundária cor
+#808080
+
+
+ logo
+largura 508,843
+altura 114,443
+
+G
+largura 32,644
+altura 37,808
+
+protecao
+largura .06*100 = 6%
+altura .33*100 = 33%
+
+
+*/
+
+.navbar-brand{
+    min-width: 50px;
+    max-width: 200px;
+}
+
+.navbar-brand img{
+    width: 100%;
+    padding: .6em .33em;
+}
+
+.footer{
+    color: white;
+    background:grey;
+  }

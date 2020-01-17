@@ -1,0 +1,408 @@
+
+/* ESCONDE O MENU */
+.flex-col.hide-for-medium.flex-right{
+    display: none;
+}
+.home .flex-col.hide-for-medium.flex-right{
+    display: unset;
+}
+#logo{
+    margin: 0 auto;
+}
+.flex-col.hide-for-medium.flex-left.flex-grow{
+    display: none;
+}
+.home .flex-col.hide-for-medium.flex-left.flex-grow{
+    display: unset;
+}
+
+.flex-col.show-for-medium.flex-right{
+    display: none;
+}
+.home .flex-col.show-for-medium.flex-right{
+    display: unset;
+}
+.flex-col.show-for-medium.flex-left
+{
+    display: none;
+}
+.home .flex-col.show-for-medium.flex-left
+{
+    display: unset;
+}
+
+  
+/* PAGINA DO FORMULARIO */
+.slider-form .slider
+{
+    padding: 0;
+}
+.menu-slider  {
+    margin: 0 !important;
+    display: none;
+}
+.menu-slider .col-inner {
+    display: flex;
+}
+.menu-slider img {
+    width: 70px;
+}
+
+.menu-slider .img {
+   text-align: center;
+}
+
+.menu-slider .img a .img-inner {
+    border-right: 1px solid rgba(50, 50, 50, 0.2);
+    text-align: center;
+ }
+
+ .menu-slider .img:last-child a .img-inner {
+    border-right: none;
+}
+
+.menu-slider-start .menu-item-start{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.menu-slider-premium .menu-item-premium{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.menu-slider-gold .menu-item-gold{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.menu-slider-platinum .menu-item-platinum{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.menu-slider-black .menu-item-black{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+.menu-slider-royal .menu-item-royal{
+    filter: grayscale(1);
+    opacity: 0.3;
+}
+
+
+
+.slider-form .col, .gallery-item, .columns{
+    padding: unset;
+}
+.row.slider-form    {
+   width: 100px;
+}
+
+.spacer{
+    margin: 20px 0;
+}
+
+.pag-form section{
+
+    box-shadow: unset;
+
+}
+.col-form {
+    padding: 0 40px;
+}
+.card-form{
+    padding: 0 40px;
+}
+
+.card-form .completo-plano{
+    display: unset;
+}
+
+.bg-caixa{
+    background: #F2F2F2;
+}
+
+.bg-caixa .col{
+    padding: 0;
+}
+
+
+.card-form .button
+{
+    display: none;
+}
+
+.logo-caixa{
+    margin: 40px auto;
+}
+
+.texto-banco{
+    margin: 0 auto;
+    padding: 0 15px 30px 30px !important;
+}
+
+.titulo{
+    top: 0px;
+    line-height: normal;
+}
+.valor{
+        color: #1E71B8;
+    font-weight: 600;
+    font-size: 30px;
+    float: right;
+}
+
+
+
+
+
+.col-form input[type]:not([type=submit]), .col-form textarea
+{
+    border: 1px solid #656565;
+    color: #656565;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.col-form ::placeholder{
+
+    color: #656565;
+}
+
+.col-form .your-name input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-nome-form.png) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.col-form .your-email input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-email-form.png) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.col-form .tel input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-tel-form.png) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+
+.col-form .cpf input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-cpf-form.png) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+.col-form .your-message textarea{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-mensagem-form.png) 3% 15%;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.form-rodape{
+    margin-bottom: -40px;
+}
+
+.col-form form{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.col-form .wpcf7 .wpcf7-not-valid-tip:after {
+    border-bottom-color: #cccccc;
+}
+
+
+.col-form .wpcf7 .wpcf7-not-valid-tip {
+    margin: 0 0 15px;
+    position: relative;
+    padding: 8px 15px;
+    line-height: 1.2em;
+    border-radius: 4px;
+    opacity: 1;
+    background-color: #cccccc;
+    color: #b20000;
+}
+
+.col-form div.wpcf7-mail-sent-ok {
+    border: 1px solid #ffffff;
+    background: transparent;
+    display: inline-table !important;
+    margin-top: 28px !important;
+    width: 100%;
+}
+
+/* Change Autocomplete styles in Chrome - Nome */
+.col-form .your-name input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill-nome-form 0s forwards;
+    animation: autofill-nome-form 0s forwards;
+}
+
+@keyframes autofill-nome-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-nome-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+@-webkit-keyframes autofill-nome-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-nome-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+
+/* Change Autocomplete styles in Chrome - Email */
+.col-form .your-email input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill-email-form 0s forwards;
+    animation: autofill-email-form 0s forwards;
+}
+
+@keyframes autofill-email-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-email-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+@-webkit-keyframes autofill-email-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-email-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+
+/* Change Autocomplete styles in Chrome - Tel */
+.col-form .tel input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill-tel-form 0s forwards;
+    animation: autofill-tel-form 0s forwards;
+}
+
+@keyframes autofill-tel-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-tel-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+@-webkit-keyframes autofill-tel-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-tel-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+
+/* Change Autocomplete styles in Chrome - Cpf */
+.col-form .cpf input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill-cpf-form 0s forwards;
+    animation: autofill-cpf-form 0s forwards;
+}
+
+@keyframes autofill-cpf-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-cpf-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+@-webkit-keyframes autofill-cpf-form {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-cpf-form.png);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+
+
+
+
+ @media only screen and (min-width: 839px) { 
+    .menu-slider  {
+        display: unset;
+    }
+
+    .col-form {
+        border-left: 1px solid #e8e8e8;
+    }
+
+
+
+    .pag-form section{
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 0px 22px 0px rgba(204,204,204,1);
+        -moz-box-shadow: 0px 0px 22px 0px rgba(204,204,204,1);
+        box-shadow: 0px 0px 22px 0px rgba(204,204,204,1);
+        background: white;
+    }
+
+    .texto-banco {
+        padding: 30px!important;
+    }
+
+    .bg-caixa img{
+
+        margin-top: 30px;
+    }
+
+
+
+    .page-wrapper{
+
+        background-image: url(../../flatsome-clube-grd/assets/imgs/fundo-contratar.png);
+        background-repeat: no-repeat;
+        background-size: 105vw;
+        background-position-x: -4vw;
+        background-position-y: 2em;
+    }
+    
+
+ 
+
+
+ } 
+
+ @media only screen and (min-width: 1024px) { 
+    
+   
+} 

@@ -1,0 +1,107 @@
+/*
+Theme Name: Flatsome - GRD GROUP
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+/*************** CUSTOMIZACAO - LUIZ CAPRIOLI - CAPPUCCINO LAB  - PROJETO GRD GROUP ***************/
+
+
+/*************** SETUP GERAL  ***************/
+#wrapper, #main
+{
+    background-color: transparent;
+}
+/*************** CABECALHO GERAL ***************/
+.header-top {
+	border-radius: 0 0 15px 15px;
+    margin: 0 15px auto;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    background-color: transparent;
+}
+.header-bg-image, .header-bg-color{
+    background-color: transparent;
+}
+.header-main {
+    margin: 0 auto;
+    font-family:"myriad-pro";
+}
+
+/*************** CABECALHO ESPECIFICO ***************/
+
+
+/*************** BANNER PRINCIPAL ***************/
+/* no circle */
+.home-banner .flickity-button {
+    background: transparent !important;
+    box-shadow: none !important;
+    top: unset !important;
+    bottom: 5% !important;
+    opacity: 1 !important;
+  }
+
+.home-banner .flickity-prev-next-button.previous
+{
+    right: 70px !important;
+}
+.home-banner .flickity-prev-next-button.previous
+{
+    right: 80px !important;
+}
+.home-banner .slider-nav-circle .flickity-prev-next-button svg, .slider-nav-circle .flickity-prev-next-button .arrow
+{
+    border: 2px solid white !important;
+}
+  
+  /* big previous & next buttons */
+.home-banner .flickity-prev-next-button {
+    width: 50px !important;
+    height: 50px !important;
+    left: unset !important;
+  }
+  
+  /* hide disabled button */
+.home-banner .flickity-button:disabled {
+    display: none;
+  }
+
+.home-banner .flickity-page-dots
+  {
+    right: 15px !important;
+    width: 120px !important;
+    left: unset !important;
+    bottom: 0 !important;
+  }
+
+  .home-banner *{
+    font-family:"myriad-pro";
+    color: white;
+  }
+ .home-banner strong  
+  {
+    color: transparent !important;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 2px white;
+    font-size: 1.8em;
+  }
+
+  .home-banner h3  
+  {
+    font-size: 1.4em;
+  }
+
+
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}

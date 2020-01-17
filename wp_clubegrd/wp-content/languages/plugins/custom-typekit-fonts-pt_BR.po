@@ -1,0 +1,129 @@
+# Translation of Plugins - Custom Typekit Fonts - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Custom Typekit Fonts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-24 22:18:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Custom Typekit Fonts - Stable (latest release)\n"
+
+#: templates/white-label.php:28
+msgid "Plugin Description:"
+msgstr "Descrição do Plugin:"
+
+#: templates/white-label.php:23
+msgid "Plugin Name:"
+msgstr "Nome do Plugin:"
+
+#: templates/white-label.php:12 templates/white-label.php:17
+msgid "Custom Typekit Fonts Branding"
+msgstr "Identidade do Custom Typekit Fonts"
+
+#: templates/custom-typekit-fonts-options.php:134
+msgid "2) Select the Font Family and start using it into your custom CSS."
+msgstr "2) Selecione a família de fontes e comece a usá-la no seu CSS personalizado."
+
+#: templates/custom-typekit-fonts-options.php:64
+msgid "Font Family"
+msgstr "Família de fonte"
+
+#. translators: %1$s: Astra Theme url.
+#: templates/custom-typekit-fonts-options.php:130
+msgid "1) Once you get the Kit Details, all the fonts will be listed in the customizer under typography for only <a href=\"%1$s\" target=\"_blank\" rel=\"noopener\"> Astra </a> WordPress Theme users"
+msgstr "1) Assim que você obtiver os detalhes do Kit, todas as fontes serão listadas no personalizador sob tipografia apenas para<a href=\"%1$s\" target=\"_blank\" rel=\"noopener\">usuários do tema</a> Astra no wordPress "
+
+#: templates/custom-typekit-fonts-options.php:11
+#: classes/class-custom-typekit-fonts-render.php:94
+#: classes/class-custom-typekit-fonts-admin.php:106
+msgid "Typekit Fonts"
+msgstr "Fonte do Typekit"
+
+#: classes/class-custom-typekit-fonts-admin.php:86
+msgid "This Kit is empty. Please add some fonts in it."
+msgstr "Este kit está vazio. Adicione algumas fontes nele."
+
+#. Author URI of the plugin
+msgid "http://www.brainstormforce.com"
+msgstr "http://www.brainstormforce.com"
+
+#. Author of the plugin
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#. Description of the plugin
+msgid "Custom Typekit Fonts allows you to extends the fonts supports from the Typekit."
+msgstr "Custom Typekit Fonts permite estender os suportes de fontes do Typekit."
+
+#. Plugin URI of the plugin
+msgid "http://www.wpastra.com/"
+msgstr "http://www.wpastra.com/"
+
+#: templates/custom-typekit-fonts-options.php:137
+msgid "Go To Customizer"
+msgstr "Ir para personalizador"
+
+#: templates/custom-typekit-fonts-options.php:123
+msgid "How it works?"
+msgstr "Como funciona?"
+
+#. translators: %1$s: typekit site url.
+#: templates/custom-typekit-fonts-options.php:112
+msgid "You can get the Kit ID <a href=%1$s target=\"_blank\" >here</a> from your Typekit Account. <b>Kit ID</b> can be found next to the kit names."
+msgstr "Você pode obter o ID do kit <a href=%1$s target=\"_blank\" >here</a> da sua conta do Typekit. <b>ID do kit</b> pode ser encontrado ao lado dos nomes dos kits."
+
+#: templates/custom-typekit-fonts-options.php:106
+msgid "Help"
+msgstr "Ajuda"
+
+#: templates/custom-typekit-fonts-options.php:67
+msgid "Weights"
+msgstr "Pesos"
+
+#: templates/custom-typekit-fonts-options.php:61
+msgid "Fonts"
+msgstr "Fonte"
+
+#: templates/custom-typekit-fonts-options.php:55
+msgid "Make sure you have published the kit from Typekit. Only published information is displayed here."
+msgstr "Certifique-se de ter publicado o kit do Typekit. Apenas as informações publicadas são exibidas aqui."
+
+#: templates/custom-typekit-fonts-options.php:53
+msgid "Kit Details:"
+msgstr "Detalhes do Kit:"
+
+#: templates/custom-typekit-fonts-options.php:41
+msgid "Save"
+msgstr "Salvar"
+
+#: templates/custom-typekit-fonts-options.php:39
+msgid "Refresh"
+msgstr "Atualizar"
+
+#: templates/custom-typekit-fonts-options.php:35
+msgid "Edit Kit ID"
+msgstr "Editar ID do kit"
+
+#: templates/custom-typekit-fonts-options.php:24
+msgid "Kit ID:"
+msgstr "ID do kit:"
+
+#: templates/custom-typekit-fonts-options.php:17
+msgid "Settings"
+msgstr "Configurações"
+
+#. Plugin Name of the plugin
+msgid "Custom Typekit Fonts"
+msgstr "Custom Typekit Fonts"
+
+#: classes/class-custom-typekit-fonts-admin.php:90
+msgid "Custom Typekit Fonts settings have been successfully saved."
+msgstr "As configurações do Custom Typekit Fonts foi salvo."
+
+#: templates/custom-typekit-fonts-options.php:27
+#: classes/class-custom-typekit-fonts-admin.php:80
+msgid "Please Enter the Valid Kit ID to get the kit details."
+msgstr "Digite o ID do kit válido para obter os detalhes do kit."

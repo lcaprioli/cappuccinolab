@@ -1,0 +1,138 @@
+body.home {
+    background-image: url(imgs/fundo-land-beneficios.png);
+    background-size: 325%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position-x: center;
+    background-position-y: top;
+    background-attachment: scroll;
+}
+
+#splash-pai {
+    background: url(imgs/banner-part1.png);
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 53%;
+    border-radius: 30px;
+}
+
+.banner-home h1 {
+    color: #1e71b8;
+    font-size: 28px;
+    line-height: 29.8px;
+}
+
+#splash-filho1 {
+    background: #E8A004;
+    border-radius: 14px;
+    width: 315px;
+    height: 190px;
+    padding: 20px !important;
+    opacity: .88;
+}
+
+#formulario{
+    width: 348px;
+    position: relative;
+    left: 0;
+    top: 11px;
+    height: 385px;
+    background: rgb(1,83,78);
+    background: linear-gradient(156deg, rgba(1,83,78,1) 0%, rgba(30,113,184,1) 100%);
+    border-radius: 33px;
+    padding: 25px;
+}
+
+
+#formulario IFRAME{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+#bt-saibamais{
+    display: none;
+}
+
+#bt-saibamais2 {
+    border: 0;
+    width: 140px;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+
+
+@media (min-width: 1024px){
+
+
+
+    
+    body.home {
+        background-image: url(imgs/fundo-land-beneficios.png);
+        background-position-y: 0px !important;
+        background-size: 118% !important;
+        }
+    
+        .banner-home h1 {
+            font-size: 40px;
+            line-height: 40.8px;
+        }
+    
+        
+    #splash-pai{
+        background: url(imgs/banner-part1.png);
+        padding: 80px 0 80px 80px;
+        background-repeat: no-repeat;
+        background-position-x: initial;
+    }
+    #splash-filho1 {
+        background: #E8A004;
+        border-radius: 14px;
+        width: 525px;
+        height: 190px;
+        padding: 30px !important;
+        opacity: .88;
+    }
+    #splash-filho1 H1{
+    
+        font-size: 35px !important;
+        line-height: 40px !important;
+        margin: 0 !important;
+        color: #012D29;
+    }
+    #bt-saibamais{
+        border: 0;
+        width: 140px;
+        position: relative;
+        right: -320px;
+        bottom: -20px;
+    }
+    #bt-saibamais2{
+        border: 0;
+        width: 140px;
+        margin: 0;
+    }
+    #formulario{
+        width: 500px;
+        position: relative;
+        left: 595px;
+        top: -369px;
+        height: 385px;
+        background: rgb(1,83,78);
+        background: linear-gradient(156deg, rgba(1,83,78,1) 0%, rgba(30,113,184,1) 100%);
+        border-radius: 33px;
+        padding: 25px;
+    }
+    
+    #formulario IFRAME{
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+ 
+    
+}
+
+

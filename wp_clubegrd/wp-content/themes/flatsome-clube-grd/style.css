@@ -1,0 +1,28 @@
+
+
+
+
+
+
+
+
+input[type='submit'], input[type='submit'].button, input[type='submit'] 
+{
+    background-color: #EAA205;
+    margin: 0;
+    color: white;
+    float: right;
+}
+
+/* BOTAO DE VOLTAR AO TOPO*/
+.button.icon.circle {
+    background: white;
+}
+
+ @media only screen and (min-width: 839px) { 
+    
+ } 
+
+ @media only screen and (min-width: 1024px) { 
+    
+} 

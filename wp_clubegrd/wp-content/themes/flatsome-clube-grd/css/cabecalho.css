@@ -1,0 +1,29 @@
+#top-bar{
+	background-position:0% 0%;
+	background-color:transparent;
+	background-image:linear-gradient(to right, rgba(1,83,78,1) 0%, rgba(29,113,184,1) 100%) !important;
+}
+
+#masthead .header-nav-main a{
+	background-color:#1e71b8 !important;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+	border-top-left-radius:0px;
+	border-bottom-left-radius:0px;
+}
+
+#masthead .header-nav-main i{
+	font-size:30px;
+}
+
+#masthead .mobile-nav a{
+	background-color:#1e71b8;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;
+}
+
+#masthead .mobile-nav i{
+	font-size:30px;
+}

@@ -1,0 +1,97 @@
+.page-id-1341{
+    background: transparent !important;
+}
+
+
+.page-id-1341 form{
+    margin: 0;
+}
+.page-id-1341 input[type]:not([type=submit]), .page-id-1341 textarea
+{
+    border: 1px solid #FFFFFF;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.page-id-1341 ::placeholder{
+
+    color: white;
+}
+
+.page-id-1341 .your-name input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-nome.svg) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.page-id-1341 .your-email input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-email.svg) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.page-id-1341 .your-tel input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-tel.svg) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.page-id-1341 .plano-interesse select{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-plano.svg) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+    -webkit-appearance: menulist;
+    border: 1px solid #FFFFFF;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+
+.page-id-1341 .wpcf7 .wpcf7-not-valid-tip{
+    display: none;
+}
+
+.page-id-1341 .your-message textarea{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-mensagem.svg) 3% 15%;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.page-id-1341 input[type="submit"] {
+
+    background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-seta.svg);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    max-width: 150px;
+    width: 100%;
+    text-indent: -5px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.page-id-1341 .wpcf7 .wpcf7-validation-errors {
+  display: block !important;
+}
+.page-id-1341 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    border: 2px solid white;
+}
+
+.page-id-1341 .wpcf7 .wpcf7-response-output {
+    width: 130px;
+    color: white;
+}
+.page-id-1341 div.wpcf7-mail-sent-ok {
+    margin-top: 0 !important;
+}
+
+
+@media (min-width: 1024px){
+
+    .page-id-1341 .wpcf7 .wpcf7-response-output {
+        width: 280px;
+    }
+
+
+    }

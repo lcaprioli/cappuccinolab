@@ -1,0 +1,289 @@
+.home.row{
+	max-width: 100%;
+}
+
+.row-full-width{
+	margin: 0 !important;
+}
+
+.large-12.col{
+	padding: 0;
+}
+
+body.home{
+	background-image: url(../../flatsome-clube-grd/assets/imgs/fundo-banner.jpg);
+	background-size: 225%;
+	background-repeat: no-repeat;
+	background-color: white;
+	background-position-x: center;
+	background-position-y: top;
+	background-attachment: scroll;
+}
+
+.banner-home{
+	max-width: 1080px;
+	padding: 0 15px !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.banner-home h1{
+	color: #1e71b8;
+	font-size: 40px;
+	line-height: 40.8px;
+}
+
+.row-main .col .col-inner .banner-home .col .col-inner a{
+	border-color:#01534e !important;
+	color:#01534e !important;
+}
+
+.banner-home a{
+	font-size:15px;
+}
+
+.flickity-viewport{
+	padding-top: 15px;
+    overflow-x: visible;
+    overflow-y: hidden;
+    overflow: unset;
+
+}
+
+.section{
+	color: #1D252D;
+	font-family: "myriad-pro";
+	-moz-box-shadow: 0px 0px 22px 0px rgba(204,204,204,1);
+	box-shadow: 0px 0px 22px 0px rgba(204,204,204,1);
+	opacity: 1;
+}
+
+.section-content .row.align-center{
+	margin: 0 !important;
+}
+
+.section H3{
+	color: #1E71B8;
+}
+
+.section H2{
+	color: #1E71B8;
+	font-size: 2.3em;
+	margin: 0;
+}
+
+.section.is-selected .completo-plano{
+	display: unset;
+}
+
+.section.is-selected .chamada-plano{
+	display: none;
+}
+
+.section .chamada-plano{
+	margin-top: 25px;
+}
+
+.section .completo-plano{
+	display: none;
+}
+
+.completo-plano .col, .gallery-item, .columns{
+	padding: 0;
+}
+
+.section .completo-plano .row{
+	margin: 0 auto;
+}
+
+.section .button{
+	border: 2px solid #EAA205;
+	color: #EAA205;
+}
+
+.section .button:hover{
+	border: 2px solid #EAA205;
+	color: white;
+	background-color: #EAA205;
+}
+
+.section .completo-plano .button{
+	background-color: #EAA205;
+	margin: 0;
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+
+.completo-plano img{
+    height: 23px;
+    width: auto;
+}
+
+.section .chamada-plano .button.is-underline{
+	color: #1E71B8;
+}
+
+.home .page-wrapper{
+    background-image: none;
+}
+
+.splash{
+	font-family: "myriad-pro";
+	color: #575757;
+	font-weight: 300;
+	font-size: 50px;
+	line-height: 1;
+	margin: 35px 40px -80px 40px;
+}
+
+.gold .cor{
+	color: #EAA205;
+}
+
+.start .cor{
+	color: #A4195B;
+}
+
+.premium .cor{
+	color: #00968B;
+}
+
+.platinum .cor{
+	color: #424242;
+}
+
+.black .cor{
+	color: black;
+}
+
+.royal .cor{
+	color: #49235D;
+}
+
+.quem-somos{
+	background: none;
+}
+
+.quem-somos .col.medium-12.small-12.large-8{
+	background: rgb(245,245,245);
+}
+
+.box-instagram{
+    width: 100vw !important;
+    position: relative;
+    margin-left: -50vw !important;
+    margin-top: 50px;
+    left: 50%;
+    max-width: 100vw !important;
+    height: auto;
+
+}
+
+.icon-box-text a {
+	color: #1E71B8;
+	font-size: 27px;
+}
+
+.titulo-instagram{
+	width: 205px;
+    margin: 35px auto;
+}
+
+
+
+@media (min-width: 768px){
+
+	body.home{
+		background-size: 123%;
+	}
+	
+	.banner-home h1{
+		font-size: 50px;
+		line-height: 55.8px;
+	}
+	
+}
+
+@media (min-width: 1024px){
+
+	body.home{
+		background-position-y: -1%;
+		background-size: 178%;
+	}
+	
+	.banner-home{
+		height: 21vw;
+	}
+	
+	.quem-somos{
+		width: 100vw !important;
+		position: relative;
+		margin-left: -50vw !important;
+		margin-top: 100px;
+		left: 50%;
+		max-width: 100vw !important;
+		height: auto;
+        background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(245,245,245,1) 61%, rgba(255,255,255,1) 61%, rgba(255,255,255,1) 100%);
+	}
+	
+	.quem-somos .large-12.col{
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+	
+	.box-texto-quemsomos{
+		padding-bottom: 0;
+		padding-left: 55px;
+		padding-right: 55px;
+    }
+    
+	.home .page-wrapper{
+        background-image: url(../../flatsome-clube-grd/assets/imgs/bg-bonus.png);
+        background-repeat: no-repeat;
+        background-size: 120vw;
+        background-position-x: -4vw;
+        background-position-y: 31em;
+    }
+
+	.splash{	
+		margin: 0;
+		margin-top: 29px;
+		padding: 0 15px;
+	}
+
+
+.box-instagram{
+    width: 100vw !important;
+    position: relative;
+    margin-left: -50vw !important;
+    margin-top: 50px;
+    left: 50%;
+    max-width: 100vw !important;
+    height: auto;
+
+}
+
+.icon-box-text a {
+	color: #1E71B8;
+}
+
+.titulo-instagram{
+	width: 215px;
+}
+
+}
+
+@media (min-width: 1280px){
+
+	body.home{
+		background-position-y: -4%;
+		background-size: 118%;
+	}
+	
+	.banner-home h1{
+		font-size: 60px;
+		line-height: 65.8px;
+	}
+	
+}

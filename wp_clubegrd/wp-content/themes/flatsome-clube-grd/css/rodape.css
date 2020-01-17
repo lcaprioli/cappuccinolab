@@ -1,0 +1,151 @@
+/* BOTAO DE VOLTAR AO TOPO*/
+.button.icon.circle {
+    background: white;
+}
+
+/* BLOCO RODAPE */
+.footer-2{
+    background: linear-gradient(90deg, rgba(1,83,78,1) 0%, rgba(29,113,184,1) 100%);
+     margin-top: 60px;
+ }
+
+ 
+.imagem-rodape{
+    position: relative;
+    top: -110px;
+    margin-bottom: -90px;
+}
+
+.form-rodape input[type]:not([type=submit]), .form-rodape textarea
+{
+    border: 1px solid #FFFFFF;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.form-rodape ::placeholder{
+
+    color: white;
+}
+
+.form-rodape .your-name input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-nome.svg) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.form-rodape .your-email input{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-email.svg) 3% center;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+.form-rodape .your-message textarea{
+    background: url(../../flatsome-clube-grd/assets/imgs/forms/icone-mensagem.svg) 3% 15%;
+    background-repeat: no-repeat;
+    text-indent: 35px;
+}
+
+.form-rodape input[type="submit"] {
+
+    background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-seta.svg);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    max-width: 150px;
+    width: 100%;
+    text-indent: -5px;
+}
+
+.form-rodape{
+    margin-bottom: -40px;
+}
+
+.form-rodape form{
+    margin-top: 40px;
+}
+
+.wpcf7 .wpcf7-not-valid-tip {
+    margin: 0 0 15px;
+    position: relative;
+    padding: 8px 15px;
+    line-height: 1.2em;
+    border-radius: 4px;
+    opacity: 1;
+    background-color: white;
+    color: #b20000;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 1px solid #ffffff;
+    background: transparent;
+    display: inline-table !important;
+    margin-top: 28px !important;
+    width: 100%;
+}
+
+/* Change Autocomplete styles in Chrome - Nome */
+.form-rodape .your-name input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill-nome 0s forwards;
+    animation: autofill-nome 0s forwards;
+}
+
+@keyframes autofill-nome {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-nome.svg);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+@-webkit-keyframes autofill-nome {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-nome.svg);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+/* Change Autocomplete styles in Chrome - Nome */
+.form-rodape .your-email input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill-email 0s forwards;
+    animation: autofill-email 0s forwards;
+}
+
+@keyframes autofill-email {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-email.svg);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+@-webkit-keyframes autofill-email {
+    100% {
+        background: transparent;
+        color: inherit;
+        background-image: url(../../flatsome-clube-grd/assets/imgs/forms/icone-email.svg);
+        background-repeat: no-repeat;
+        background-position: 3% center;
+    }
+}
+
+
+
+@media only screen and (min-width: 839px) { 
+    div.wpcf7-mail-sent-ok {
+        width: 330px;
+    }
+} 
+

@@ -1,0 +1,26 @@
+{"fields":{"id":{"integerValue":119},"name":{"stringValue":"erhe"},"status":{"stringValue":"publish"},"description":{"stringValue":"eggrerg"},"short_description":{"stringValue":""},"price":{"doubleValue":"76"},"stock_quantity":{"integerValue":0},"weight":{"stringValue":""},"length":{"stringValue":""},"width":{"stringValue":""},"height":{"stringValue":""},"menu_order":{"integerValue":0},"image_id":{"stringValue":""},"cats":[23,24]}} --- {
+  "error": {
+    "code": 400,
+    "message": "Invalid value at 'document.fields[13].value' (Map), Cannot have repeated items ('cats') within a map.\nInvalid JSON payload received. Unknown name \"\" at 'document.fields[13].value': Proto fields must have a name.\nInvalid JSON payload received. Unknown name \"\" at 'document.fields[13].value': Proto fields must have a name.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.BadRequest",
+        "fieldViolations": [
+          {
+            "field": "document.fields[13].value",
+            "description": "Invalid value at 'document.fields[13].value' (Map), Cannot have repeated items ('cats') within a map."
+          },
+          {
+            "field": "document.fields[13].value",
+            "description": "Invalid JSON payload received. Unknown name \"\" at 'document.fields[13].value': Proto fields must have a name."
+          },
+          {
+            "field": "document.fields[13].value",
+            "description": "Invalid JSON payload received. Unknown name \"\" at 'document.fields[13].value': Proto fields must have a name."
+          }
+        ]
+      }
+    ]
+  }
+}

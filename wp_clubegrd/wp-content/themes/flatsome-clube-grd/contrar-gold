@@ -1,0 +1,44 @@
+<script>plano="GOLD"; valor="R$ 10.000,00";</script>
+[row class="menu-slider"]
+
+[col span__sm="12" class="menu-slider-gold"]
+
+[block id="619"]
+
+
+[/col]
+
+[/row]
+[row class="pag-form"]
+
+[col span__sm="12" class="gold"]
+
+[section]
+
+[row_inner]
+
+[col_inner span="4" span__sm="12" align="center" class="card-form"]
+
+[ux_image id="480" image_size="large" width="43"]
+
+[block id="552"]
+
+[/col_inner]
+[col_inner span="8" span__sm="12" class="col-form"]
+
+<span class="titulo">CONTRATAR PLANO <span class="cor gold">GOLD</span></span>
+
+[block id="660"]
+
+<span class="valor"><span style="color: grey;">Valor: </span>R$ 10.000,00</span>
+
+[/col_inner]
+
+[/row_inner]
+
+[/section]
+
+[/col]
+
+[/row]
+[block id="555"]

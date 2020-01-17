@@ -1,0 +1,113 @@
+*{
+    font-family: 'myriad-pro' !important;
+}
+
+html{
+    margin-right: unset !important;
+}
+#wrapper, #main{
+	background-color:transparent;
+}
+
+
+/* CORES PLANOS */
+.start .cor{
+    color: #A4195B;
+}
+
+.premium .cor{
+    color: #00968B;
+}
+
+.platinum .cor{
+    color: #424242;
+}
+
+.black .cor{
+    color: black;
+}
+
+.royal .cor{
+    color: #49235D;
+}
+ /* CORES PLANOS */
+
+ /* TITULOS */
+.titulo{
+    color: #1E71B8;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0px;
+    position: relative;
+    top: 21px;
+}
+
+.icone {
+    margin: 0 10px 0 -10px;
+}
+.logo-popup img{
+
+    width: 270px;
+    margin-top: 15px;
+}
+.lightbox-content H2{
+    color: #1E71B8;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0px;
+    position: relative;
+}
+
+.lightbox-content{
+    padding: 10px 30px !important;
+
+}
+.btn-fechar img{
+    width: 15px;
+}
+.texto-popup{
+
+    margin: 50px;
+}
+.texto-popup .col{
+    padding: 0 30px !important;
+}
+.link-pop{
+
+    border: 2px solid #E8A004;
+    padding: 15px;
+    color: #E8A004;
+    font-size: 17px;
+        font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+}
+
+.link-pop:hover{
+
+    border: 2px solid #E8A004;
+    background: #E8A004;
+    color: white;
+}
+
+
+.mfp-close{
+    opacity: 0 !important;
+}
+.off-canvas-right .mfp-close{
+    opacity: 0.5 !important;
+}
+
+@media (min-width: 1024px){
+    .texto-popup .col{
+        padding: 0 30px !important;
+        margin: 0px;
+    }
+    
+.link-pop{
+    top: 10px;
+    left: 23%;
+    font-size: 20px;
+}
+}
